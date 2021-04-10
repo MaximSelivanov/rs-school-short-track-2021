@@ -9,7 +9,7 @@
  *
  * The result should be [-1, 150, 160, 170, -1, -1, 180, 190]
  */
- function sortByHeight(arr) {
+function sortByHeight(arr) {
   let t = 0;
   const a = arr;
   for (let i = 0; i < a.length; i++) {

@@ -9,12 +9,12 @@
  * For n = 152, the output should be 52
  *
  */
- function deleteDigit(n) {
+function deleteDigit(n) {
   let str1 = '';
   let str2 = '';
   str1 = n.toString();
   let max = n % 10;
-  for (let i = 0; i < srt1.length; i++) {
+  for (let i = 0; i < str1.length; i++) {
     str2 = str1;
     str2 = str2.slice(0, i) + str2.slice(i + 1);
     if (Number.parseInt(str2, 10) > max) max = Number.parseInt(str2, 10);

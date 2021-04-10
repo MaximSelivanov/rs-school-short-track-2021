@@ -8,7 +8,7 @@
  * For aabbbc should return 2a3bc
  *
  */
- function encodeLine(str) {
+function encodeLine(str) {
   let s = '';
   let j = 0;
   for (let i = 0; i < str.length; i++) {
@@ -28,4 +28,3 @@
 }
 
 module.exports = encodeLine;
-
